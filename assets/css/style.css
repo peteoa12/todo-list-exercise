@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Helvetica', sans-serif;
+  background-color: #555;
+}
+
+section, footer {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  margin: 15px auto;
+  padding: 16px 16px 16px 60px;
+  font-size: 1.5em;
+}
+
+li {
+  position:relative;
+  /*border: solid 1px black;*/
+  margin: 50px auto;
+  /*padding: 16px 16px 16px 60px;*/
+  font-size: 1.5em;
+  transition:all 0.2s ease-in-out;
+  background-color: white;
+  color: gray;
+}
+
+#header {
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 3em;
+  color: orange;
+}
+
+label[for='toggle-all'] {
+  display: none;
+}
+
+#toggle-all {
+  position: absolute;
+  top: -80px;
+  left: -105px;
+  width: 65px;
+  height: 41px;
+}
+
+.complete {
+  text-decoration: line-through;
+  transition:all 0.2s ease-in-out;
+  
+}
+
+/*# sourceMappingURL=style.css.map */

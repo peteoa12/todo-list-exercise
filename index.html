@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<title>To Do List</title>
+	<meta charset = "utf-8">
+	<meta name="description" content="Demo Page for Web Dev 3">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- TYPOGRAPHY -->
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+
+	
+</head>
+
+<body>
+		<section id="todo">
+			
+			<header id="header">
+				<h1>Honey, I need you to..</h1>
+				<input id="new-todo" placeholder="What's next?" autofocus>
+			</header>
+			
+			<section id="main">
+				<input id="toggle-all" type="checkbox">
+				<label for="toggle-all">Mark all as complete</label>
+				<ul id="todo-list">
+				</ul>
+			</section>
+			
+			<footer id="footer">
+				<span id="todo-count"><strong>0</strong> item left</span>
+				<button id="clear-completed">Clear completed</button>
+			</footer>
+
+		</section>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>	
+<script src="assets/js/utilities.js"></script>
+<script src="assets/js/script.js"></script>
+</body>
+</html>
